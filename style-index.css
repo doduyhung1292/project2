@@ -1,0 +1,78 @@
+body {
+	background-image: url('desktop-1985856_1920.jpg');
+	display: grid;
+	font-family: Arial, san-serif;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 5em 25em 10em;
+}
+.btn-signup {
+	grid-column: 3;
+}
+.box-login h1{
+	color: #c14747d9;
+}
+.box-login{
+	grid-column: span 6;
+	padding: 1em 2em;
+	margin: 3em 11em 3em 8em;
+    grid-row: span 3;
+    border: 1px solid #aaa;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+.box-login input {
+   height: 2rem;
+   width: 16rem;
+   border-radius: 0.5em;
+   margin-left: 1em;
+   margin-bottom: .3rem;
+}
+.box-login a {
+	margin: 0 2em;
+	text-decoration: none;
+	color: #aaa;
+    font-size: .8rem;
+}
+.btn-login {
+	font-size: 1.2rem;
+	margin-left: 1em;
+    height: 3rem;
+	width: 16rem;
+    color: #abc;
+    background-color: rgba(214, 74, 74, 0.58);
+    border-radius: .5rem;
+}
+.box-login h4 {
+	font-size: 1.5rem;
+	padding-left: 4em;
+	margin: 0.5rem 1rem;
+}
+.btn-fb {
+	height: 3rem;
+	width: 16rem;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	border-radius: .5rem;
+	background-color:rgba(106, 106, 239, .5);
+}
+.btn-gg {
+	height: 3rem;
+	width: 16rem;
+	margin-left: 1em;
+	margin-bottom: 0em;
+	border-radius: .5rem;
+	background-color: rgba(151, 183, 230, 0.64);
+}
+.signup {
+	color: black;
+}
+.btn-signup {
+	font-size: 1.2rem;
+	height: 4rem;
+	width: 8rem;
+	border-radius: 1rem;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+

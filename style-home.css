@@ -1,0 +1,144 @@
+body {
+	background-image: url('abstract-1850417_1920.jpg');
+}
+.container-home {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 3rem 35.5rem;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 1rem;
+}
+
+/* Navigative bar bắt đầu từ đây */
+.nav-bar {
+	grid-column: span 12;
+	background-color:#9ffff68f;
+	border-bottom: 1px solid #aaa;
+	display: flex;
+
+}
+	
+.menu-navbar {
+	padding-left: 1rem;
+	font-size: 2.2rem;
+	border-right: 1px solid #aaa;
+    padding-top: 0.6rem;
+    padding-right: 1rem;
+}
+.name-navbar {
+	font-size: 2rem;
+    padding-left: 1.7rem;
+    padding-right: 1rem;
+    border-right: 1px solid #aaa;
+    padding-top: 0.6rem;
+}
+
+.search-navbar {
+   padding-left: 6rem;
+   padding-top: 0.6rem;
+
+}
+.search-navbar > input{
+	height: 2rem;
+	width: 13rem;
+	border-radius: 1rem;
+	border-right: 1px solid #aaa;
+	margin-bottom: 0.2rem;
+}
+.user-navbar {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-size: 1.5rem;
+	text-align: center;
+	border-right: 1px solid #aaa;
+	padding-top: 0.6rem;
+}
+
+.home-navbar {
+	padding-left: 1rem;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-top: 0.5rem;
+}
+
+.create-navbar {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-top: 0.5rem;
+	border-right: 1px solid #aaa;
+}
+
+.icon-navbar {
+	border-right: 1px solid #aaa;
+	padding-top: 0.6rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+.dropdown-navbar {
+	padding-left: 1rem;
+	padding-top: 0.5rem;
+}
+/*Navigative bar kết thúc ở đây*/
+
+/* Menu bắt đầu từ đây */
+
+.menu  {
+	grid-column: span 2;
+	background-color: #9ffff68f;
+	padding-left: 0.7rem;
+	
+}
+.direction > div {
+	margin-bottom: 0.5rem;
+}
+.shortcuts > div {
+	margin-bottom: 0.5rem;
+}
+.discovery > div {
+	margin-bottom: 0.5rem;
+}
+
+
+
+.menu a {
+	color: blue;
+	font-size: 1.2rem;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+/* Menu kết thúc từ đây */
+/* new feed bắt đầu từ đây */
+
+
+.new-feed {
+	grid-column: span 7;
+	background-color: red;
+	padding-top: 1rem;
+}
+.create-post {
+	border: 2px solid black;
+}
+.note-post {
+	font-size: 2rem;
+	border: 1px solid #aaa;
+	background-color: #aaa;
+}
+
+.input-post > input {
+	height: 4rem;
+	width: 37.5rem;
+}
+.upload-data {
+    display: inline-block;
+}
+/* new feed kết thúc từ đây */
+.chat-active {
+	grid-column: span 3;
+	background-color: pink;
+}
