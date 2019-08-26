@@ -123,19 +123,29 @@ a {
 }
 .create-post {
 	border: 2px solid black;
+	border-radius: 1rem;
 }
 .note-post {
 	font-size: 2rem;
 	border: 1px solid #aaa;
 	background-color: #aaa;
+	border-radius: 1rem 1rem 0 0;
 }
 
 .input-post > input {
 	height: 4rem;
-	width: 37.5rem;
+	width: 48.2rem;
 }
-.upload-data {
-    display: inline-block;
+
+.upload-data > div {
+	display: inline-grid;
+	padding: 0.5rem;
+	border: 1px solid #aaa;
+	background-color: green;
+	border-radius: 1rem;
+	text-align: center;
+	margin-left: 1rem;
+	margin-bottom: 0.3rem;
 }
 /* new feed kết thúc từ đây */
 .chat-active {
